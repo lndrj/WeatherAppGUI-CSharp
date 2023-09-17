@@ -1,27 +1,21 @@
-﻿
+﻿using Avalonia;
+using System;
 
-using WeatherApp_CSharp;
+namespace WeatherApp_CSharpGUI;
 
-ApiCall apiCall = new ApiCall();
-
-try
+class Program
 {
-    string city = "prague";
-    WeatherInfo.Root? weatherInfo = await apiCall.WeatherDataAsync(city);
+    // Initialization code. Don't use any Avalonia, third-party APIs or any
+    // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
+    // yet and stuff might break.
+    [STAThread]
+    public static void Main(string[] args) => BuildAvaloniaApp()
+        .StartWithClassicDesktopLifetime(args);
 
-    double tempKelvin = weatherInfo.Main.Temp;
-    double tempCelsius = tempKelvin - 273.15;
-    DateTime currentTime = DateTime.Now;
-    
-    Console.WriteLine($"Aktuální čas: {currentTime.ToString("HH:mm:ss")}\n");
-    
-    Console.WriteLine($"Teplota: {tempCelsius:N1}°C");
-    Console.WriteLine($"Vlhkost: {weatherInfo.Main.Humidity}");
-    Console.WriteLine($"Vlhkost: {weatherInfo.Weather[0].Main}");
+    // Avalonia configuration, don't remove; also used by visual designer.
+    public static AppBuilder BuildAvaloniaApp()
+        => AppBuilder.Configure<App>()
+            .UsePlatformDetect()
+            .WithInterFont()
+            .LogToTrace();
 }
-catch (Exception e)
-{
-    Console.WriteLine(e.Message);
-}
-
-

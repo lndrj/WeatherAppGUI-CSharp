@@ -1,4 +1,6 @@
-namespace WeatherApp_CSharp
+using System.Collections.Generic;
+
+namespace WeatherApp_CSharpGUI
 {
     public class WeatherInfo
     {

@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="600"
+        x:Class="WeatherApp_CSharpGUI.MainWindow"
+        Title="WeatherApp_CSharpGUI"
+        Width="400"
+        Height="600">
+
+    <Grid>
+        <TextBlock Name="CityTextBlock" FontSize="24" HorizontalAlignment="Center" Margin="0,10">Město</TextBlock>
+        <StackPanel Margin="20,50,20,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <TextBox Name="CityTextBox" Width="200" Height="15"/>
+                <Button Content="Zobrazit počasí" Click="ShowWeatherButton_Click" HorizontalAlignment="Center" Margin="10,10"/>
+            </StackPanel>
+            <ScrollViewer Margin="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Margin="10,0,0,10" Grid.Column="0">
+                        <TextBlock Text="Teplota:"/>
+                        <TextBlock Text="Tlak:"/>
+                        <TextBlock Text="Vlhkost:"/>
+                        <TextBlock Text="Východ slunce:"/>
+                        <TextBlock Text="Pocitová teplota:"/>
+                        <TextBlock Text="Rychlost větru:"/>
+                        <TextBlock Text="Západ slunce:"/>
+                    </StackPanel>
+                    <StackPanel Margin="10,0,50,10" Grid.Column="1" HorizontalAlignment="Right">
+                        <TextBlock Name="TemperatureTextBlock" Text=""/>
+                        <TextBlock Name="PressureTextBlock" Text=""/>
+                        <TextBlock Name="HumidityTextBlock" Text=""/>
+                        <TextBlock Name="SunriseTextBlock" Text=""/> 
+                        <TextBlock Name="FeelsLikeTextBlock" Text=""/>
+                        <TextBlock Name="WindSpeedTextBlock" Text=""/>
+                        <TextBlock Name="SunsetTextBlock" Text=""/>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>
