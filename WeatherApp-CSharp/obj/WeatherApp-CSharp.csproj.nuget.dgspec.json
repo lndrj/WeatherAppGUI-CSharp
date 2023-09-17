@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj": {}
+    "/Users/lukas/GitHub/WeatherAppGUI-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj": {}
   },
   "projects": {
-    "/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj": {
+    "/Users/lukas/GitHub/WeatherAppGUI-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj",
+        "projectUniqueName": "/Users/lukas/GitHub/WeatherAppGUI-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj",
         "projectName": "WeatherApp-CSharp",
-        "projectPath": "/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj",
+        "projectPath": "/Users/lukas/GitHub/WeatherAppGUI-CSharp/WeatherApp-CSharp/WeatherApp-CSharp.csproj",
         "packagesPath": "/Users/lukas/.nuget/packages/",
-        "outputPath": "/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/",
+        "outputPath": "/Users/lukas/GitHub/WeatherAppGUI-CSharp/WeatherApp-CSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukas/.nuget/NuGet/NuGet.Config"
