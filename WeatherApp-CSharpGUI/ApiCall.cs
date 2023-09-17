@@ -9,7 +9,7 @@ namespace WeatherApp_CSharpGUI;
 
 public class ApiCall
 {
-    private string apiKey = "8258f6dfebaeac7102ca2542407b343a";
+    private string apiKey = "";
     private HttpClient client = new();
 
     public async Task<WeatherInfo.Root?> WeatherDataAsync(string city)
