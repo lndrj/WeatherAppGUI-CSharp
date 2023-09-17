@@ -1,0 +1,17 @@
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/WeatherApp-CSharp
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/WeatherApp-CSharp.deps.json
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/WeatherApp-CSharp.runtimeconfig.json
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/WeatherApp-CSharp.dll
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/WeatherApp-CSharp.pdb
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.csproj.AssemblyReference.cache
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.AssemblyInfoInputs.cache
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.AssemblyInfo.cs
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.csproj.CoreCompileInputs.cache
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.dll
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/refint/WeatherApp-CSharp.dll
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.pdb
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.genruntimeconfig.cache
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/ref/WeatherApp-CSharp.dll
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/lukas/RiderProjects/WeatherApp-CSharp/WeatherApp-CSharp/obj/Debug/net7.0/WeatherApp-CSharp.csproj.CopyComplete

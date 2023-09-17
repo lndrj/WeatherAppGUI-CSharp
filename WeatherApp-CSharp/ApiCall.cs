@@ -1,11 +1,8 @@
-using System;
-using System.Net.Http;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace WeatherApp_CSharpGUI;
+namespace WeatherApp_CSharp;
 
 public class ApiCall
 {
